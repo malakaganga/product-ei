@@ -1349,8 +1349,8 @@
         <carbon.commons.version>4.6.16</carbon.commons.version>
 
         <!-- Carbon Deployment version-->
-        <carbon.deployment.version>4.7.11</carbon.deployment.version>
-        <carbon-deployment.feature.imp.version>4.7.0</carbon-deployment.feature.imp.version>
+        <carbon.deployment.version>4.7.13</carbon.deployment.version>
+        <carbon-deployment.feature.imp.version>4.7.13</carbon-deployment.feature.imp.version>
 
         <!-- Carbon Registry version-->
         <carbon.registry.version>4.6.16</carbon.registry.version>
