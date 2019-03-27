@@ -28,7 +28,7 @@ public class JMSEndpointTestCase extends ESBIntegrationTest {
         endPointAdminClient = new EndPointAdminClient(contextUrls.getBackEndUrl(), getSessionCookie());
 
         Awaitility.await().pollInterval(50, TimeUnit.MILLISECONDS).atMost(300, TimeUnit.SECONDS)
-                .until(isServiceDeployed("JMSEndpointTestCaseProxy"));
+                .until(isServiceDeployed("JmsProxy"));
     }
 
 
@@ -51,7 +51,7 @@ public class JMSEndpointTestCase extends ESBIntegrationTest {
                          "  </soapenv:Body>" +
                          "</soapenv:Envelope>";
         try {
-            sender.connect("JMSEndpointTestCaseProxy");
+            sender.connect("JmsProxy");
             for (int i = 0; i < NUM_OF_MESSAGES; i++) {
                 sender.pushMessage(message);
             }
