@@ -2554,59 +2554,59 @@
                 <fileMode>644</fileMode>
             </file>
 
-            <!--&lt;!&ndash;Forget me tool&ndash;&gt;-->
-            <!--<file>-->
-                <!--<source>../p2-profile/analytics-profile/src/scripts/forgetme.sh</source>-->
-                <!--<outputDirectory>wso2ei-${pom.version}/wso2/analytics/bin/</outputDirectory>-->
-                <!--<fileMode>744</fileMode>-->
-            <!--</file>-->
+            <!--Forget me tool-->
+            <file>
+                <source>../p2-profile/analytics-profile/src/scripts/forgetme.sh</source>
+                <outputDirectory>wso2ei-${pom.version}/wso2/analytics/bin/</outputDirectory>
+                <fileMode>744</fileMode>
+            </file>
 
-            <!--<file>-->
-                <!--<source>../p2-profile/analytics-profile/src/scripts/forgetme.bat</source>-->
-                <!--<outputDirectory>wso2ei-${pom.version}/wso2/analytics/bin/</outputDirectory>-->
-                <!--<fileMode>744</fileMode>-->
-            <!--</file>-->
+            <file>
+                <source>../p2-profile/analytics-profile/src/scripts/forgetme.bat</source>
+                <outputDirectory>wso2ei-${pom.version}/wso2/analytics/bin/</outputDirectory>
+                <fileMode>744</fileMode>
+            </file>
 
-            <!--<file>-->
-                <!--<source>../p2-profile/analytics-profile/target/forget-me/identity-anonymization-tool-${forgetme.tool.version}/bin/forgetme.sh</source>-->
-                <!--<outputDirectory>wso2ei-${pom.version}/wso2/analytics/wso2/tools/identity-anonymization-tool/bin/</outputDirectory>-->
-                <!--<fileMode>744</fileMode>-->
-            <!--</file>-->
+            <file>
+                <source>../p2-profile/analytics-profile/target/forget-me/identity-anonymization-tool-${forgetme.tool.version}/bin/forgetme.sh</source>
+                <outputDirectory>wso2ei-${pom.version}/wso2/analytics/wso2/tools/identity-anonymization-tool/bin/</outputDirectory>
+                <fileMode>744</fileMode>
+            </file>
 
-            <!--<file>-->
-                <!--<source>../p2-profile/analytics-profile/target/forget-me/identity-anonymization-tool-${forgetme.tool.version}/bin/forgetme.bat</source>-->
-                <!--<outputDirectory>wso2ei-${pom.version}/wso2/analytics/wso2/tools/identity-anonymization-tool/bin/</outputDirectory>-->
-                <!--<fileMode>744</fileMode>-->
-            <!--</file>-->
+            <file>
+                <source>../p2-profile/analytics-profile/target/forget-me/identity-anonymization-tool-${forgetme.tool.version}/bin/forgetme.bat</source>
+                <outputDirectory>wso2ei-${pom.version}/wso2/analytics/wso2/tools/identity-anonymization-tool/bin/</outputDirectory>
+                <fileMode>744</fileMode>
+            </file>
 
-            <!--<file>-->
-                <!--<source>../p2-profile/analytics-profile/target/forget-me/identity-anonymization-tool-${forgetme.tool.version}/conf/product-config/config-sp.json</source>-->
-                <!--<outputDirectory>wso2ei-${pom.version}/wso2/analytics/wso2/tools/identity-anonymization-tool/conf/</outputDirectory>-->
-                <!--<destName>config.json</destName>-->
-                <!--<fileMode>644</fileMode>-->
-            <!--</file>-->
+            <file>
+                <source>../p2-profile/analytics-profile/target/forget-me/identity-anonymization-tool-${forgetme.tool.version}/conf/product-config/config-sp.json</source>
+                <outputDirectory>wso2ei-${pom.version}/wso2/analytics/wso2/tools/identity-anonymization-tool/conf/</outputDirectory>
+                <destName>config.json</destName>
+                <fileMode>644</fileMode>
+            </file>
 
         <!--END Analytics file copying -->
 
 
-        <!--<file>-->
-            <!--<source>src/msf4j/bin/kernel-version.txt</source>-->
-            <!--<outputDirectory>wso2ei-${pom.version}/wso2/msf4j/bin</outputDirectory>-->
-            <!--<fileMode>644</fileMode>-->
-            <!--<filtered>true</filtered>-->
-        <!--</file>-->
-        <!--<file>-->
-            <!--<source>../p2-profile/msf4j-profile/target/wso2msf4j-${msf4j.version}/bin/README.txt</source>-->
-            <!--<outputDirectory>wso2ei-${pom.version}/wso2/msf4j/bin</outputDirectory>-->
-            <!--<destName>README.txt</destName>-->
-            <!--<fileMode>644</fileMode>-->
-            <!--<filtered>true</filtered>-->
-        <!--</file>-->
-        <!--<file>-->
-            <!--<source>src/msf4j/bin/carbon.bat</source>-->
-            <!--<outputDirectory>wso2ei-${pom.version}/wso2/msf4j/bin</outputDirectory>-->
-            <!--<fileMode>755</fileMode>-->
-        <!--</file>-->
+        <file>
+            <source>src/msf4j/bin/kernel-version.txt</source>
+            <outputDirectory>wso2ei-${pom.version}/wso2/msf4j/bin</outputDirectory>
+            <fileMode>644</fileMode>
+            <filtered>true</filtered>
+        </file>
+        <file>
+            <source>../p2-profile/msf4j-profile/target/wso2msf4j-${msf4j.version}/bin/README.txt</source>
+            <outputDirectory>wso2ei-${pom.version}/wso2/msf4j/bin</outputDirectory>
+            <destName>README.txt</destName>
+            <fileMode>644</fileMode>
+            <filtered>true</filtered>
+        </file>
+        <file>
+            <source>src/msf4j/bin/carbon.bat</source>
+            <outputDirectory>wso2ei-${pom.version}/wso2/msf4j/bin</outputDirectory>
+            <fileMode>755</fileMode>
+        </file>
         <!-- END Copying files related to msf4j -->
 
         <!-- Copying files related to forget me tool -->
